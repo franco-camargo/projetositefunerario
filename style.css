@@ -600,3 +600,13 @@ footer {
     .header-actions { width: 100%; justify-content: center; }
     .product-grid { grid-template-columns: 1fr; }
 }
+/* Estilos para o logo no cabeçalho */
+.header-logo {
+    margin-right: 20px; /* Espaço entre o logo e o título */
+}
+
+.logo-image {
+    max-height: 80px; /* Define a altura máxima do logo */
+    width: auto; /* Mantém a proporção da imagem */
+    border-radius: var(--radius); /* Aplica o arredondamento padrão, se desejado */
+}
